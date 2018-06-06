@@ -53,5 +53,12 @@
             <version>RELEASE</version>
             <scope>compile</scope>
         </dependency>
+
+        <!-- Apache Commons DbUtils -->
+        <dependency>
+            <groupId>commons-dbutils</groupId>
+            <artifactId>commons-dbutils</artifactId>
+            <version>1.6</version>
+        </dependency>
     </dependencies>
 </project>

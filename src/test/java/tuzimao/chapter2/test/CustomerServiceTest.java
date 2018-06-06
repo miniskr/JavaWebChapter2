@@ -28,7 +28,7 @@ public class CustomerServiceTest {
     @Test
     public void getCustomerListTest() throws Exception {
         String keyWorld = "";
-        List<Customer> customerList = customerService.getCustomerList(keyWorld);
+        List<Customer> customerList = customerService.getCustomerList();
         Assert.assertEquals(2, customerList.size());
     }
 
